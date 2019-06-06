@@ -29,10 +29,11 @@ end
 #   end
 # end
 
-def bulk_tweet_shortener(tweet)
-  tweet.map do |phrase|
+def bulk_tweet_shortener(arr_tweets)
+  arr_tweets.map do |phrase|
     puts word_substituter(phrase)
   end
+  puts shortnened_tweets
 end
 
 def selective_tweet_shortener(tweet)
