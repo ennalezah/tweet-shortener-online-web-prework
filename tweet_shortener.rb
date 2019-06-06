@@ -27,12 +27,12 @@ def bulk_tweet_shortener(tweets)
   tweets.each do |tweet|
     short_tweet = word_substituter(tweet)
   end
-  puts short_tweet
+  puts short_tweet.join("")
 end
 
-def selective_tweet_shortener(tweet)
-  if tweet.
-end
+# def selective_tweet_shortener(tweet)
+#   if tweet.
+# end
 
-def shortened_tweet_truncator(tweet)
-end
+# def shortened_tweet_truncator(tweet)
+# end
