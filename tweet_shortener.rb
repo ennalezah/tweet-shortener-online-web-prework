@@ -13,31 +13,7 @@ def dictionary
   }
 end
 
-# def word_substituter(tweet)
-#   tweet.split(//).each do |word|
-#     if dictionary.keys.include?(word.downcase)
-#       # word = dictionary[word]
-#       tweet.map do |word|
-#         word.gsub(word, dictionary[word])
-#       end 
-#     end 
-#   end
-# end
-
-# def word_substituter(tweet)
-#   tweet.gsub(word, dictionary[word])
-# end
-
-# def word_substituter(tweet)
-#     tweet.split(" ").map do |word|
-#       dictionary.each do |k, v|
-#         if word === k
-          
-#         end 
-#       end 
-        
-#     end
-# end
+# def word_substituter(twee
 
 def word_substituter(tweet)
     tweet.split(" ").map do |word|
