@@ -30,11 +30,11 @@ end
 #   end
 # end
 
-def bulk_tweet_shortener(tweets)
-  tweets.map do |phrase|
-    puts word_substituter(phrase)
+def bulk_tweet_shortener(tweets_array)
+  tweets_array.collect do |tweet|
+    puts word_substituter(tweet)
   end
-end
+end 
 
 # def selective_tweet_shortener(tweet)
 #   if tweet.
