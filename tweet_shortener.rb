@@ -21,7 +21,7 @@ def word_substituter(tweet)
         word
       end 
     end.join(" ")
-end
+endz
 
 # def word_substituter(tweet)
 #     tweet.split(" ").map do |word|
