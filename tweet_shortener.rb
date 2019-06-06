@@ -31,9 +31,9 @@ end
 
 def bulk_tweet_shortener(arr_tweets)
   arr_tweets.map do |phrase|
-    puts word_substituter(phrase)
+    shortened_tweets = word_substituter(phrase)
   end
-  puts shortnened_tweets
+  puts shortened_tweets
 end
 
 def selective_tweet_shortener(tweet)
