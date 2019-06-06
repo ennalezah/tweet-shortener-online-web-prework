@@ -40,10 +40,10 @@ end
 def selective_tweet_shortener(arr_tweets)
    arr_tweets.map do |tweet|
     if tweet.length > 140
-#     puts word_substituter(tweet)
-#   else
-#     tweet
-#   end
+     puts word_substituter(tweet)
+   else
+     tweet
+   end
   end
 end
 
