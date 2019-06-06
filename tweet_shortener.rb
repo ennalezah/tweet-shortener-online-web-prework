@@ -43,6 +43,8 @@ def word_substituter(tweet)
     tweet.split(" ").map do |word|
       if dictionary.keys.include?(word.downcase)
         word.replace(dictionary[word])
+      else
+        word
       end 
     end.join(" ")
 end
