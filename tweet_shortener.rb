@@ -13,8 +13,6 @@ def dictionary
   }
 end
 
-# def word_substituter(twee
-
 def word_substituter(tweet)
     tweet.split(" ").map do |word|
       if dictionary.keys.include?(word.downcase)
@@ -22,7 +20,8 @@ def word_substituter(tweet)
       else
         word
       end 
-    end.join(" ")
+    end
+    tweet.join(" ")
 end
 
 # def word_substituter(tweet)
