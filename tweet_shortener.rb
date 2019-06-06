@@ -29,9 +29,9 @@ end
 #   end
 # end
 
-def bulk_tweet_shortener(arr_tweets)
-  arr_tweets.collect do |tweet|
-    puts word_substituter(tweet)
+def bulk_tweet_shortener(tweets)
+  tweets.collect do |phrase|
+    puts word_substituter(phrase)
   end
 end
 
