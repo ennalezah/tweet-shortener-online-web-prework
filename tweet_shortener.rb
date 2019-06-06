@@ -23,13 +23,4 @@ def word_substituter(tweet)
     end.join(" ")
 end
 
-# def word_substituter(tweet)
-#     tweet.split(" ").map do |word|
-#       if dictionary.keys.include?(word.downcase)
-#         tweet.map { |word| word == 4 ? 'Z' : x }
-        
-#         tweet
-#       end 
-#     end
-#     tweet.join(" ")
-# end
+def 
