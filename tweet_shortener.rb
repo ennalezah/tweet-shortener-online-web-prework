@@ -29,23 +29,15 @@ def bulk_tweet_shortener(arr_tweets)
   end
 end 
 
-# def selective_tweet_shortener(tweet)
-#   if tweet.length > 140
-#     puts word_substituter(tweet)
-#   else
-#     tweet
-#   end
-# end
-
-def selective_tweet_shortener(arr_tweets)
-   arr_tweets.map do |tweet|
-    if tweet.length > 140
-     puts word_substituter(tweet)
-   else
-     tweet
-   end
+def selective_tweet_shortener(tweet)
+  if tweet.length > 140
+    puts word_substituter(tweet)
+  else
+    tweet
   end
 end
+
+
 
 def shortened_tweet_truncator(tweet)
   if word_substituter(tweet).length > 140
